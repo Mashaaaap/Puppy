@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    padding: 20px;
+    padding-top: 5px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.post {
+    width: 50%;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.post .line {
+    width: 478px;
+    text-align: left;
+    margin-top: 150px;
+    background: #E3E0E7;
+    border: 0.5px solid #E3E0E7;
+}
+
+.post_text, .post_title {
+    width: 478px;
+}
+
+.post_text {
+    font-size: 28px;
+}
+
+.post_title {
+    font-size: 42px;
+}
+
+.img {
+    height: 533px;
+}

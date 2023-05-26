@@ -1,0 +1,40 @@
+.contacts {
+    margin: 8% 0;
+    padding: 20px 0;
+}
+
+.contacts .box {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background: #002726;
+}
+
+.order {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order .name, .order .phone, .order .orderN{
+    background: #E3E0E7;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    width: 245px;
+    height: 30px;
+}
+
+.order input:focus {
+    outline: none;
+}
+
+.order .btn {
+    background: #010F18;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #E3E0E7;
+    margin: 10px;
+    border: none;
+}
