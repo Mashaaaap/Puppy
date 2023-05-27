@@ -1,6 +1,6 @@
 .header {
     width: 90%;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     margin-left: 50px;
     flex-direction: row;
@@ -15,8 +15,14 @@
 }
 
 .logo_img {
-    width: 45px;
-    height: 40px;
+    width: 65px;
+    height: 60px;
+}
+
+.logo_text {
+    text-decoration: none;
+    color: #E3E0E7;
+    
 }
 
 .menu_list_item {

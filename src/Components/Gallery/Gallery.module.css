@@ -1,0 +1,33 @@
+.products {
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 17.5%;
+    height: 35%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #002726;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.box h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.box p {
+    margin: 0;
+    margin-bottom: 5px;
+}

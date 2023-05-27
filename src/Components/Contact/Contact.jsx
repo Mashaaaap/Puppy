@@ -31,7 +31,6 @@ const Contact = (props) => {
                 <div className={s.box}>
                     <h2 class="title">Lorem ipsum dolor sit amet.</h2>
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, molestias!</p>
-                    {UsersCollection}
                     <form action="" className={s.order}>
                         <input type="text" ref={form.name} className={s.name} placeholder="Your name..."/>
                         <input type="text" ref={form.phone} className={s.phone} placeholder="Yout phone number..."/>
@@ -41,6 +40,7 @@ const Contact = (props) => {
 
                     <h3>Amount of people that already have found their friends with our help: {props.countUsers}</h3>
                 </div>
+                    {UsersCollection}
         </section>
     )
 }
