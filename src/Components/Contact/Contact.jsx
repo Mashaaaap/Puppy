@@ -35,7 +35,7 @@ const Contact = (props) => {
                         <input type="text" ref={form.name} className={s.name} placeholder="Your name..."/>
                         <input type="text" ref={form.phone} className={s.phone} placeholder="Yout phone number..."/>
                         <input type="text" ref={form.order} className={s.orderN} placeholder='Your order number...'/>
-                        <button className={s.btn} ref={form.btn}>Send</button>
+                        <button className={s.btn} ref={form.btn} onClick={(e) => {e.preventDefault()}}>Send</button>
                     </form>
 
                     <h3>Amount of people that already have found their friends with our help: {props.countUsers}</h3>

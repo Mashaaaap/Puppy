@@ -9,7 +9,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = ({
     createUser: createUserAC,
-    updateNewUse: updateNewUserAC
+    updateNewUser: updateNewUserAC
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Contact)
