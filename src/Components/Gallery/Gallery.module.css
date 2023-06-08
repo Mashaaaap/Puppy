@@ -8,15 +8,15 @@
 }
 
 .box {
-    width: 17.5%;
-    height: 35%;
-    padding: 10px;
+    width: 20.5%;
+    height: 50%;
+    padding: 15px;
     border-radius: 15px;
     border: 1px solid #002726;
 }
 
 .img {
-    width: 150px;
+    width: 250px;
     height: 200px;
     margin: 0 auto;
     border-radius: 15px;

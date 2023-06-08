@@ -14,7 +14,7 @@ const Header = () => {
         <nav className={s.menu}>
             <ul className={s.menu_list}>
                 <Link to='/about'  className={s.menu_list_item}>About us</Link>
-                <Link to='/gallery'  className={s.menu_list_item}>Products</Link>
+                <Link to='/gallery'  className={s.menu_list_item}>Puppies</Link>
                 <Link to='/contacts'  className={s.menu_list_item}>Your order</Link>
             </ul>
         </nav>

@@ -1,6 +1,7 @@
 import s from './Contact.module.css'
 import User from './User/User'
 import { useEffect, useRef  } from 'react'
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const Contact = (props) => {
     let UsersCollection = props.users.map((user) => (
@@ -14,6 +15,8 @@ const Contact = (props) => {
         btn: useRef(null)
     }
 
+    let success = () => {Notify.success('Your order has been send successfully')}
+
     useEffect (() => {
         form.name.current.addEventListener("input" , () => {
             props.updateNewUser("name", form.name.current.value)
@@ -23,8 +26,11 @@ const Contact = (props) => {
         })
         form.btn.current.addEventListener("click", () => {
             props.createUser()
+            success()
         })
     }, [])
+
+
 
     return (
         <section className={s.contacts}>
@@ -40,6 +46,7 @@ const Contact = (props) => {
 
                     <h3>Amount of people that already have found their friends with our help: {props.countUsers}</h3>
                 </div>
+                <h3 style={{textAlign: 'center', margin: '10px'}}>Our Happy Customers!</h3>
                     {UsersCollection}
         </section>
     )

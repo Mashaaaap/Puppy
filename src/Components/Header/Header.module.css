@@ -5,6 +5,7 @@
     margin-left: 50px;
     flex-direction: row;
     align-items: center;
+    align-content: center;
     justify-content: space-around;
     border-bottom: 0.7px solid #002726;
 }
