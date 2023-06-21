@@ -27,6 +27,9 @@ const Contact = (props) => {
         form.btn.current.addEventListener("click", () => {
             props.createUser()
             success()
+            form.name.value = ''
+            form.number.value = ''
+            form.order.value = ''
         })
     }, [])
 
